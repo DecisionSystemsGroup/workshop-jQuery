@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF8">
+		<title>jQuery Workshop</title>
+		<link rel="stylesheet" type="text/css" href="css/main.css">
+	</head>
+	<body>
+		<div id="page-wrapper">
+			<div id="head-wrapper">
+				<h1 id="panel-title">Όλα τα μαθήματα</h1>
+			</div>
+			<div id="menu-wrapper">
+				<ul id="menu">
+					<li class="menu-button" data-filter="all">Όλα τα μαθήματα</li>
+					<li class="menu-button" data-filter="finished">Περασμένα μαθήματα</li>
+					<li class="menu-button" data-filter="pending">Δηλωμένα μαθήματα</li>
+				</ul>
+			</div>
+			<div id="content-wrapper">
+				<div class="panel" id="courses">
+				</div>
+				<div class="panel" id="info" style="display: none;">
+				</div>
+			</div>
+		</div>
+	</body>
+	<script src="js/jquery-2.2.3.min.js"></script>
+	<script src="js/main.js"></script>
+</html>
