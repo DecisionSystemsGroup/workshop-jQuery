@@ -12,5 +12,8 @@
 		}
 		
 		$(selector).fadeIn();	//Emfanish twn grammwn pou antistixoun sto filtro mas
+		
+		var title =  $(this).text();
+		$("#panel-title").text(title);	//Allagh tou title
 	});
 });
