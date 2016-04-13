@@ -1,6 +1,9 @@
 var lastViewed = 'Όλα τα μαθήματα';	//Arxikopoihsh tou genikou titlou
 $(document).ready(function(){
 	$(".menu-button").on("click", function (){
+		$(".panel").hide();	//Kripsimo olwn twn panel
+		$("#courses").show();	//Emfanish autou pou exei to periexomeno pou theloume
+		
 		$(".data-table tbody tr").hide();	//Kripsimo olwn twn grammwn
 		
 		var filter = $(this).data("filter");	//Apothikeush ths timhs tou filtrou pou patithike
