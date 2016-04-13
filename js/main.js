@@ -1,3 +1,4 @@
+var lastViewed = 'Όλα τα μαθήματα';	//Arxikopoihsh tou genikou titlou
 $(document).ready(function(){
 	$(".menu-button").on("click", function (){
 		$(".data-table tbody tr").hide();	//Kripsimo olwn twn grammwn
@@ -15,6 +16,7 @@ $(document).ready(function(){
 		
 		var title = $(this).text();
 		$("#panel-title").text(title);
+		lastViewed = title;	//Apothikeush tou neou titlou
 	});
 	
 	
@@ -37,6 +39,12 @@ $(document).ready(function(){
 		else{
 			$("#info-complete").addClass("fail").removeClass("success");
 		}
+	});
+	
+	$(".button-back").on("click", function(){
+		$(".panel").hide();
+		$("#courses").fadeIn();
+		$("#panel-title").text(lastViewed);	//Antikatastash tou titlou me ton proigoumeno apothikeumeno
 	});
 });
 
