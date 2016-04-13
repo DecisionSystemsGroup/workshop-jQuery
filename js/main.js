@@ -25,7 +25,7 @@ $(document).ready(function(){
 	
 	$(".button-more").on("click", function(){
 		$(".panel").hide();
-		$("#info").show();
+		$("#info").fadeIn();
 		
 		var courseId = $(this).closest("tr").data("course-id");	//Euresh tou id tou mathimatos
 		
