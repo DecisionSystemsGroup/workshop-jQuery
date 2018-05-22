@@ -1,6 +1,6 @@
 # Εισαγωγή στην jQuery
-[Demo app](http://dsg.teiste.gr/workshop-jQuery/)
+[Demo app](https://decisionsystemsgroup.github.io/workshop-jQuery/)
 
 [workshop vod](https://www.youtube.com/watch?v=OnFiA2EgGbo)
 
-[Aftermath post](http://dsg.teiste.gr/jquery-workshop-aftermath/)
+[Aftermath post](https://decisionsystemsgroup.github.io/jquery-workshop-aftermath/)
